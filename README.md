@@ -24,7 +24,9 @@ The following components are included in this project:
 
 ## Dataset
 
-The dataset used in this project consists of labeled tweets, where the target label is either `0` (negative sentiment) or `1` (positive sentiment). The dataset is loaded from the CSV file `training.1600000.processed.noemoticon.csv`, and it requires an `ISO-8859-1` encoding format.
+The dataset can be downloaded on Kaggle : https://www.kaggle.com/datasets/kazanova/sentiment140
+
+The dataset used in this project consists of labeled tweets, where the target label is either `0` (negative sentiment) or `1` (positive sentiment). The dataset is loaded from the CSV file `training.1600000.processed.noemoticon.csv`, and it requires an `ISO-8859-1` encoding format. 
 
 ### Data Preprocessing Steps:
 - The dataset's columns are named (`target`, `id`, `date`, `flag`, `user`, `text`).
